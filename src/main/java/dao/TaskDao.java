@@ -6,7 +6,7 @@ public interface TaskDao {
     void add (Task task);
     List<Task> getAll();
     Task findById(int id);
-    void update(int id, String newDescription);
+    void update(int id, String newDescription, int categoryId);
     void deleteById(int id);
     void clearAllTasks();
 }
